@@ -10,8 +10,6 @@ body {
 }
 
 section {
-    height: 325px;
-    width: 250px;
     padding: 50px;
     margin: 0 auto;
 }
@@ -84,4 +82,49 @@ text-align: center;
  }
 .attribution a { 
 color: hsl(228, 45%, 44%); 
+}
+.attribution p {
+    color: black;
+}
+
+/*----------------------- Mobile Styles --------------------------*/
+.sedans {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.luxury {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+section {
+    height: 350px;
+    width: 225px;
+}
+
+/*----------------------- Desktop Styles --------------------------*/
+@media only screen and (min-width:1440px) {
+    .container {
+        display: flex;
+        flex-flow: row nowrap ;
+        justify-content: center;
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    section {
+        margin: 0;
+    }
+
+    .sedans {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 5px;
+    }
+    .luxury {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    
+    }
 }

@@ -1,0 +1,87 @@
+/*----------------------- General Styles --------------------------*/
+html {
+    font-size: 15px;
+}
+body {
+    font-size: 1em;
+    background-color: hsl(0, 0, 95%);
+    color: hsla(0, 0%, 100%, .75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+section {
+    height: 325px;
+    width: 250px;
+    padding: 50px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0, 95%);
+
+}
+p {
+    color: hsla(0, 0%, 100%, .75);
+    line-height: 25px;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* Buttons */
+button{
+    background-color: hsl(0, 0, 95%);
+    padding: 12px 35px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    transition-duration: .04s;
+}
+
+
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+.sedan-button:hover {
+    color: hsla(0, 0%, 100%, .75);
+    background-color: hsl(31, 77%, 52%);;
+    border: hsla(0, 0%, 100%, .75) 2px solid;
+} 
+
+.suv-button:hover {
+    color: hsla(0, 0%, 100%, .75);
+    background-color: hsl(184, 100%, 22%);;
+    border: hsla(0, 0%, 100%, .75) 2px solid;
+} 
+
+.luxury-button:hover {
+    color: hsla(0, 0%, 100%, .75);
+    background-color: hsl(179, 100%, 13%);;
+    border: hsla(0, 0%, 100%, .75) 2px solid;
+} 
+
+/* Footer */
+.attribution {
+font-size: 11px; 
+text-align: center;
+ }
+.attribution a { 
+color: hsl(228, 45%, 44%); 
+}
